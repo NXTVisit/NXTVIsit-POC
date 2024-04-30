@@ -9,8 +9,9 @@ import { useChangeLanguage } from "remix-i18next/react";
 import { useTranslation } from "react-i18next";
 import i18next from "./localization/i18next.server";
 
-export async function loader({ request }: LoaderFunctionArgs) {
-	let locale = await i18next.getLocale(request);
+export async function loader({ request, params }: LoaderFunctionArgs) {
+	const lang = params.lang as string | undefined;
+	let locale = lang ?? await i18next.getLocale(request);
 	return json({ locale });
 }
 

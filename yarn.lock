@@ -6133,6 +6133,11 @@ remark-rehype@^10.0.0:
     mdast-util-to-hast "^12.1.0"
     unified "^10.0.0"
 
+remix-custom-routes@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/remix-custom-routes/-/remix-custom-routes-1.0.1.tgz#2d16ef7711d6baec8d2c891daf7fd522a736bc67"
+  integrity sha512-nC9IFAHskzx0djXOA4KnRck8x2uDWtDw2cT0bN8XaOSlBumm5t+TOUKET6hiXMjMyjkr4FqqpH7lotD68dOA7A==
+
 remix-development-tools@^4.1.4:
   version "4.1.4"
   resolved "https://registry.yarnpkg.com/remix-development-tools/-/remix-development-tools-4.1.4.tgz#d8b6a9ce84e51323458d1215c3bad9d1054b24c1"
